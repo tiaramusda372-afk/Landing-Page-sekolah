@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SMK Digital</title>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        /* Navbar */
+        .navbar {
+            background-color: #1f1f1f;
+        }
+
+        .navbar-brand {
+            color: white;
+            font-weight: bold;
+        }
+
+        .nav-link {
+            color: #ccc !important;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('ftcoding.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        /* Card */
+        .card-custom {
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #1f1f1f;
+            color: #aaa;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+
+
+        /* Smooth scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Navbar hover */
+.nav-link:hover {
+    color: white !important;
+    transition: 0.3s;
+}
+
+/* Hero lebih hidup */
+.hero {
+    min-height: 350px;
+    display: flex;
+    align-items: center;
+}
+
+/* Card hover effect */
+.card-custom {
+    transition: 0.3s;
+}
+.card-custom:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+/* Button lebih keren */
+.btn-primary {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    border: none;
+}
+.btn-primary:hover {
+    opacity: 0.9;
+}
+
+/* Progress bar animasi */
+.progress-bar {
+    animation: load 2s ease;
+}
+
+@keyframes load {
+    from { width: 0; }
+}
+
+/* Testimoni */
+.card img {
+    height: 180px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer {
+    font-size: 14px;
+}
+/* kotak  */
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+}
+
+/* Biru transparan */
+.icon-box.blue {
+    background-color: rgba(13, 110, 253, 0.15);
+    color: #0d6efd;
+}
+
+/* Hijau transparan */
+.icon-box.green {
+    background-color: rgba(25, 135, 84, 0.15);
+    color: #198754;
+}
+    </style>
+
+</head>
+<body>
+
+ <!-- Navbar -->
+    <nav class="navbar bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand text-white fw-bold" href="index.html">
+      <img src="smkntgrn-removebg-preview.png" alt="Logo" width="40" class="d-inline-block align-text-center">  SMKN Tengaran</a>
+    <ul class="nav justify-content-end">
+  <li class="nav-item">
+    <a class="nav-link active text-white" aria-current="page" href="index.html">Beranda</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white" href="index.html#Visi Misi">Visi Misi</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link text-white"  href="index.html#Data Siswa">Data Siswa</a>
+  </li>
+  <li class="nav-item">
+    <div class="dropdown">
+  <button class=" btn btn-dark dropdown-toggle justify-content-end" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+    Jurusan
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="index.html#pplg">PPLG</a></li>
+    <li><a class="dropdown-item" href="index.html#tkj">TKJ</a></li>
+    <li><a class="dropdown-item" href="index.html#kuliner">Kuliner</a></li>
+    <li><a class="dropdown-item" href="index.html#busana">Busana</a></li>
+    <li><a class="dropdown-item" href="index.html#otomotif">Otomotif</a></li>
+    <hr >
+    <li><a class="dropdown-item" href="index.html#Jurusan">Lihat Semua</a></li>
+  </ul>
+</div>
+  </li>
+</ul>
+  </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero">
+    <div class="container">
+        <h2 class="fw-bold">PENGEMBANGAN PERANGKAT LUNAK DAN GIM</h2>
+        <p>Jurusan yang membekali peserta didik dengan pengetahuan, keterampilan, dan sikap unggul agar siap menjadi tenaga kompeten di bidang rekayasa perangkat lunak.</p>
+    </div>
+</section>
+
+<!-- Content -->
+<div class="container mt-5">
+    <div class="row">
+        
+        <!-- Kiri -->
+        <div class="col-md-8">
+            <div class="card p-4 card-custom">
+                <h4 class="fw-bold">Membangun Masa Depan Melalui Kode</h4>
+                <p>
+                    Rekayasa Perangkat Lunak (RPL) merupakan program keahlian yang mempelajari proses pembuatan perangkat lunak secara lengkap mulai dari analisis hingga pengujian.
+                </p>
+
+                <div class="row g-3">
+                <div class=" col d-flex align-items-center mb-4">
+    <div class="icon-box blue me-3 rounded p-3">
+        <i class="bi bi-code-slash"></i>
+    </div>
+    <div class="col-md-6">
+        <h5 class="fw-bold mb-1">Web Dev</h5>
+        <p class="text-start">Menguasai Frontend (React)<br/> & Backend (NodeJS/PHP).</p>
+    </div>
+
+    <div class="icon-box green me-3 rounded p-3">
+        <i class="bi bi-controller"></i>
+    </div>
+    <div class="col-md-6">
+        <h5 class="fw-bold mb-1">Game Dev</h5>
+        <p class="text-start">Pembuatan aset 2D/3D dan<br/> mekanik game menggunakan<br/> Unity.</p>
+    </div>
+</div>
+ </div>
+
+                <hr>
+
+                <h5>Fasilitas Unggulan</h5>
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between">
+                        Laboratorium Komputer <span class="badge bg-primary">2 Lab</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        Internet Cepat <span class="badge bg-success">Full WiFi</span>
+                    </li>
+                    <li class="list-group-item d-flex justify-content-between">
+                        Sertifikasi Industri <span class="badge bg-info">Tersedia</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Kanan -->
+        <div class="col-md-4">
+            <div class="card p-3 card-custom">
+                <h5 class="text-center">Status Pendaftaran</h5>
+                <p>Kuota Terisi</p>
+                <div class="progress mb-3">
+                    <div class="progress-bar" style="width: 90%;">90%</div>
+                </div>
+                <button class="btn btn-primary w-100 fw-bold">DAFTAR SEKARANG</button>
+                <br>
+                <button class="btn btn-light text-body-secondary w-100">
+                <i class="bi bi-arrow-left text-primary"></i>
+                    <a href="index.html">Kembali</a>
+                </button>
+            </div>
+
+            <div class="card mt-3 card-custom">
+                <img src="ftdiskusicodg.jpg" class="card-img-top">
+                <div class="card-body">
+                    <p>"Belajar di SMK Digital membuka wawasan saya."</p>
+                    <small>- Ahmad, Alumni 2024</small>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="text-white">
+    © 2026 SMKN Tengaran. Seluruh Hak Cipta Dilindungi.
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
